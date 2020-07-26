@@ -1,13 +1,20 @@
-# docker-laravel-handson
-
-## ディレクトリ構成
-```
+.
+├── README.md
 ├── docker
+│   ├── mysql
+│   │   └── my.cnf
+│   ├── nginx
+│   │   └── default.conf
 │   └── php
 │       ├── Dockerfile
-│       └── php.ini # PHPの設定ファイル
+│       └── php.ini
 ├── docker-compose.yml
 ├── logs
+│   ├── access.log
+│   ├── error.log
+│   ├── mysql-error.log
+│   ├── mysql-query.log
+│   ├── mysql-slow.log
 │   └── php-error.log
-└── src # Laravelをインストールするディレクトリ
-```
+└── src
+    └── readme.md
